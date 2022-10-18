@@ -1,6 +1,31 @@
-#game{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
-    margin: auto;
-}
+body {
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: .85em;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #101111 12%, transparent 12.5%, transparent 87%, #101111 87.5%, #101111), linear-gradient(150deg, #101111 12%, transparent 12.5%, transparent 87%, #101111 87.5%, #101111), linear-gradient(30deg, #101111 12%, transparent 12.5%, transparent 87%, #101111 87.5%, #101111), linear-gradient(150deg, #101111 12%, transparent 12.5%, transparent 87%, #101111 87.5%, #101111), linear-gradient(60deg, #10111177 25%, transparent 25.5%, transparent 75%, #10111177 75%, #10111177), linear-gradient(60deg, #10111177 25%, transparent 25.5%, transparent 75%, #10111177 75%, #10111177);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;    color: #3925ed;
+  }
+  
+  h1 {
+    color: #a40707;
+    text-shadow: 3px 3px 5px #a0a8aF;
+  }
+  
+  .container {
+    width: 412px;
+    margin: 50px auto;
+  }
+  
+  .description {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tetrisCanvas {
+    box-shadow: 3px 3px 5px #a0a8aF;
+    outline: none;
+  }
+
+  

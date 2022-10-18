@@ -2,14 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The "Game"</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tetris-Ish</title>
 </head>
 <body>
-    <div id="game">
-        <div id="character"></div>
-        <div id="block"></div>
-    </div>
-<script src="script.js"></script>
+
+    <div class="container">
+        <h1>Tetris-Ish</h1>
+        <div id="canvasTetris"></div>
+        <div class="description">
+          &#8592; &#8593; &#8594; &#8595; to move, P to pause
+          <br/> Speed increases every 1000 earned score points
+          <br/> Click to play
+        </div>
+      </div>
+      
+    
 </body>
 </html>
