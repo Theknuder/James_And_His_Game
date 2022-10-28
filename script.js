@@ -636,3 +636,23 @@ window.onload = function() {
         }
       }
     };
+
+    game.setGame();
+  };
+  
+  var Snd = {
+    init: function() {
+      $("audio").each(function() {
+        var src = this.getAttribute('src');
+        if (src.substring(0, 4) !== "snd/") { return; }
+        var name = src.substring(4, src.length - 4);
+        var Constructor = function() {};
+        Constructor.prototype = this;
+        Snd[name] = function() {
+          var clone = new Constructor();
+          clone.play();
+          return clone;
+        };
+      });
+    }
+  };
